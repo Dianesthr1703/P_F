@@ -8,6 +8,7 @@ Git es un sistema de control de versiones distribuido que te permite rastrear ca
 - Acceso a Internet para descargar el instalador.
 
 ## Pasos para la instalación
+<<<<<<< HEAD
 
 ### Paso 1: Descargar el instalador de Git
 1. Visita la página oficial de Git: [git-scm.com](https://git-scm.com).
@@ -35,3 +36,13 @@ Para asegurarte de que Git se ha instalado correctamente:
 
    ```bash
    git --version
+=======
+1. **Descargar el instalador de Git**: Visita [git-scm.com](https://git-scm.com) y haz clic en el botón de descarga.
+2. **Ejecutar el instalador**: Navega a la carpeta de descargas y ejecuta el archivo `Git-x.x.x.exe`.
+3. **Configurar la instalación**: Sigue las instrucciones del asistente.
+4. **Completar la instalación**: Haz clic en "Finish".
+
+## Verificar la instalación
+1. Abre el "Símbolo del sistema" o "Git Bash".
+2. Escribe `git --version` y presiona Enter.
+>>>>>>> 578969ace413d837f8c1d5902ed6b57796f9db40
