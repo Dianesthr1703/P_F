@@ -11,9 +11,16 @@
             font-family: 'Comic Sans MS', cursive, sans-serif;
             margin: 0;
             padding: 20px;
+            line-height: 1.6; /* Mejora la legibilidad */
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #004d40; /* Línea separadora */
         }
         h1, h2 {
             color: #004d40;
+            margin: 10px 0; /* Espaciado adicional para mayor claridad */
         }
         section {
             background-color: #ffffff;
@@ -23,18 +30,33 @@
             margin-bottom: 20px;
         }
         img {
-            width: 100%; /* Asegura que las imágenes sean del ancho del contenedor */
-            max-width: 500px; /* Limita el ancho máximo de las imágenes */
-            border: 2px solid #004d40; /* Borde de las imágenes */
-            border-radius: 8px; /* Bordes redondeados */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-            margin: 10px auto; /* Centrarlas y darles espacio */
-            display: block; /* Asegura que se centren correctamente */
+            width: 100%;
+            max-width: 500px;
+            border: 2px solid #004d40;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 10px auto;
+            display: block;
+        }
+        pre {
+            background-color: #f0f4c3; /* Fondo suave para el código */
+            border-radius: 5px;
+            padding: 10px;
+            overflow-x: auto; /* Permite desplazamiento horizontal */
         }
         footer {
             text-align: center;
             margin-top: 20px;
             font-size: 0.9em;
+            border-top: 2px solid #004d40; /* Línea separadora */
+            padding-top: 10px;
+        }
+        a {
+            color: #00796b; /* Color del enlace */
+            text-decoration: none; /* Sin subrayado */
+        }
+        a:hover {
+            text-decoration: underline; /* Subrayado al pasar el ratón */
         }
     </style>
 </head>
