@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cómo instalar Git en Windows</title>
+    <meta name="description" content="Guía paso a paso sobre cómo instalar Git en Windows. Aprende a descargar, configurar y verificar la instalación de Git.">
+    <meta name="author" content="Diane Gonz">
     <style>
         body {
             background-color: #e0f7fa;
@@ -17,6 +19,27 @@
             text-align: center;
             padding: 20px 0;
             border-bottom: 2px solid #004d40; /* Línea separadora */
+        }
+        nav {
+            background-color: #004d40;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         h1, h2 {
             color: #004d40;
@@ -64,17 +87,28 @@
     <header>
         <h1>¿Cómo instalar Git en Windows?</h1>
     </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#requisitos-previos">Requisitos previos</a></li>
+            <li><a href="#pasos-instalacion">Pasos para la instalación</a></li>
+            <li><a href="#verificar-instalacion">Verificar la instalación</a></li>
+            <li><a href="#comentarios">Comentarios</a></li>
+        </ul>
+    </nav>
+
     <section>
-        <h2>Introducción</h2>
+        <h2 id="introduccion">Introducción</h2>
         <p>Git es un sistema de control de versiones distribuido que te permite rastrear cambios en archivos y colaborar con otros desarrolladores.</p>
 
-        <h2>Requisitos previos</h2>
+        <h2 id="requisitos-previos">Requisitos previos</h2>
         <ul>
             <li>Un sistema operativo Windows (10 o superior recomendado).</li>
             <li>Acceso a Internet para descargar el instalador.</li>
         </ul>
 
-        <h2>Pasos para la instalación</h2>
+        <h2 id="pasos-instalacion">Pasos para la instalación</h2>
         <h3>Paso 1: Descargar el instalador de Git</h3>
         <p>Visita la página oficial de Git: <a href="https://git-scm.com" target="_blank">git-scm.com</a>.</p>
         <img src="img/Descargar Git.png" alt="Descargar Git" />
@@ -91,12 +125,20 @@
         <p>Haz clic en "Finish" una vez que la instalación haya finalizado.</p>
         <img src="img/Finalizar instalación.png" alt="Finalizar instalación" />
 
-        <h2>Verificar la instalación</h2>
+        <h2 id="verificar-instalacion">Verificar la instalación</h2>
         <p>Abre el "Símbolo del sistema" o "Git Bash" y escribe el siguiente comando:</p>
         <pre><code>git --version</code></pre>
         <p>Esto te mostrará la versión de Git instalada en tu sistema.</p>
         <img src="img/version.png" alt="Verificación de la versión de Git" />
     </section>
+
+    <section id="comentarios">
+        <h2>Comentarios</h2>
+        <p>¿Tienes dudas o sugerencias? Déjalas aquí:</p>
+        <textarea rows="4" cols="50" placeholder="Escribe tu comentario..."></textarea>
+        <button type="submit">Enviar</button>
+    </section>
+
     <footer>
         <p>&copy; 2024 Diane Gonz</p>
     </footer>
