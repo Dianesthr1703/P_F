@@ -8,8 +8,8 @@
     <meta name="author" content="Diane Gonz">
     <style>
         body {
-            background-color: #e0f7fa;
-            color: #006064;
+            background-color: #e3f2fd; /* Color de fondo suave */
+            color: #0d47a1; /* Color del texto principal */
             font-family: 'Comic Sans MS', cursive, sans-serif;
             margin: 0;
             padding: 20px;
@@ -18,10 +18,10 @@
         header {
             text-align: center;
             padding: 20px 0;
-            border-bottom: 2px solid #004d40; /* Línea separadora */
+            border-bottom: 2px solid #0d47a1; /* Línea separadora */
         }
         nav {
-            background-color: #004d40;
+            background-color: #0d47a1; /* Fondo del menú de navegación */
             padding: 10px;
             border-radius: 5px;
             margin-bottom: 20px;
@@ -35,18 +35,18 @@
             margin-right: 20px;
         }
         nav a {
-            color: #ffffff;
+            color: #ffffff; /* Color del enlace en el menú */
             text-decoration: none;
         }
         nav a:hover {
-            text-decoration: underline;
+            text-decoration: underline; /* Subrayado al pasar el ratón */
         }
         h1, h2 {
-            color: #004d40;
+            color: #0d47a1; /* Color de los encabezados */
             margin: 10px 0; /* Espaciado adicional para mayor claridad */
         }
         section {
-            background-color: #ffffff;
+            background-color: #ffffff; /* Fondo blanco para las secciones */
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -55,31 +55,51 @@
         img {
             width: 100%;
             max-width: 500px;
-            border: 2px solid #004d40;
+            border: 2px solid #0d47a1; /* Borde azul para las imágenes */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin: 10px auto;
             display: block;
         }
         pre {
-            background-color: #f0f4c3; /* Fondo suave para el código */
+            background-color: #e1f5fe; /* Fondo suave para el código */
             border-radius: 5px;
             padding: 10px;
             overflow-x: auto; /* Permite desplazamiento horizontal */
+            color: #0d47a1; /* Color del texto en el bloque de código */
         }
         footer {
             text-align: center;
             margin-top: 20px;
             font-size: 0.9em;
-            border-top: 2px solid #004d40; /* Línea separadora */
+            border-top: 2px solid #0d47a1; /* Línea separadora */
             padding-top: 10px;
         }
         a {
-            color: #00796b; /* Color del enlace */
+            color: #1976d2; /* Color del enlace */
             text-decoration: none; /* Sin subrayado */
         }
         a:hover {
             text-decoration: underline; /* Subrayado al pasar el ratón */
+        }
+        textarea {
+            width: 100%; /* Ancho completo */
+            padding: 10px;
+            border: 1px solid #0d47a1; /* Borde azul para el área de comentarios */
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button {
+            background-color: #0d47a1; /* Color de fondo del botón */
+            color: white; /* Color del texto en el botón */
+            border: none; /* Sin borde */
+            padding: 10px 15px; /* Espaciado interno */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cursor de mano */
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #1976d2; /* Color más claro al pasar el ratón */
         }
     </style>
 </head>
@@ -135,7 +155,7 @@
     <section id="comentarios">
         <h2>Comentarios</h2>
         <p>¿Tienes dudas o sugerencias? Déjalas aquí:</p>
-        <textarea rows="4" cols="50" placeholder="Escribe tu comentario..."></textarea>
+        <textarea rows="4" placeholder="Escribe tu comentario..."></textarea>
         <button type="submit">Enviar</button>
     </section>
 
