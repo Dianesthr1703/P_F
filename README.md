@@ -1,48 +1,39 @@
 # Cómo instalar Git en Windows
 
 ## Introducción
-Git es un sistema de control de versiones distribuido que te permite rastrear cambios en archivos y colaborar con otros desarrolladores. Este documento te guiará a través del proceso de instalación de Git en un sistema operativo Windows.
+Git es un sistema de control de versiones distribuido que permite rastrear cambios en archivos y colaborar con otros desarrolladores. Este documento te guiará a través del proceso de instalación de Git en Windows.
 
 ## Requisitos previos
 - Un sistema operativo Windows (10 o superior recomendado).
 - Acceso a Internet para descargar el instalador.
 
 ## Pasos para la instalación
-<<<<<<< HEAD
 
 ### Paso 1: Descargar el instalador de Git
 1. Visita la página oficial de Git: [git-scm.com](https://git-scm.com).
-2. Haz clic en el botón de descarga para Windows. Esto descargará automáticamente el instalador.
+2. Haz clic en el botón de descarga para Windows. Esto descargará automáticamente el instalador adecuado para tu sistema.
 
 ### Paso 2: Ejecutar el instalador
-1. Navega a la carpeta donde descargaste el instalador (usualmente en "Descargas").
-2. Haz doble clic en el archivo `Git-x.x.x.exe` (donde x.x.x es la versión).
+1. Navega a la carpeta donde descargaste el instalador (generalmente la carpeta de "Descargas").
+2. Haz doble clic en el archivo `Git-x.x.x.exe` (donde x.x.x representa la versión) para abrir el instalador.
 
 ### Paso 3: Configurar la instalación
 1. **Selecciona el idioma**: Elige tu idioma preferido y haz clic en "OK".
 2. **Licencia**: Acepta los términos de la licencia y haz clic en "Next".
-3. **Seleccionar componente**: Deja seleccionadas las opciones predeterminadas y haz clic en "Next".
-4. **Seleccionar el editor de texto predeterminado**: Selecciona tu editor favorito o deja el predeterminado (Vim) y haz clic en "Next".
-5. **Ajustes de PATH**: Selecciona "Use Git from the Windows Command Prompt" para poder usar Git en la terminal de Windows y haz clic en "Next".
-6. **Configuraciones adicionales**: Puedes dejar las opciones predeterminadas y hacer clic en "Next" hasta llegar a "Install".
+3. **Seleccionar componentes**: 
+   - Deja las opciones predeterminadas seleccionadas. 
+   - Puedes optar por añadir íconos de acceso directo para facilitar el acceso.
+4. **Seleccionar el editor de texto predeterminado**: Escoge tu editor de texto favorito o deja el predeterminado (Vim) y haz clic en "Next".
+5. **Ajustes de PATH**: 
+   - Selecciona "Use Git from the Windows Command Prompt" para que Git se pueda ejecutar desde cualquier terminal en Windows.
+6. **Configuraciones adicionales**: Revisa las opciones y deja las predeterminadas si no tienes preferencias específicas. Haz clic en "Next" hasta llegar a "Install".
 
 ### Paso 4: Completar la instalación
-1. Haz clic en "Finish" una vez que la instalación haya finalizado.
+1. Haz clic en "Finish" una vez que la instalación haya finalizado. Puedes optar por abrir Git Bash inmediatamente.
 
 ## Verificar la instalación
-Para asegurarte de que Git se ha instalado correctamente:
 1. Abre el "Símbolo del sistema" o "Git Bash".
-2. Escribe el siguiente comando y presiona Enter:
+2. Escribe el siguiente comando y presiona Enter para confirmar que Git se instaló correctamente:
 
    ```bash
    git --version
-=======
-1. **Descargar el instalador de Git**: Visita [git-scm.com](https://git-scm.com) y haz clic en el botón de descarga.
-2. **Ejecutar el instalador**: Navega a la carpeta de descargas y ejecuta el archivo `Git-x.x.x.exe`.
-3. **Configurar la instalación**: Sigue las instrucciones del asistente.
-4. **Completar la instalación**: Haz clic en "Finish".
-
-## Verificar la instalación
-1. Abre el "Símbolo del sistema" o "Git Bash".
-2. Escribe `git --version` y presiona Enter.
->>>>>>> 578969ace413d837f8c1d5902ed6b57796f9db40
