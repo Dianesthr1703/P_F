@@ -18,11 +18,13 @@
         header {
             text-align: center;
             padding: 20px 0;
-            border-bottom: 2px solid #0d47a1; /* Línea separadora */
+            border-bottom: 4px solid #0d47a1; /* Línea separadora más gruesa */
+            background-color: #ffffff; /* Fondo blanco */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
         }
         nav {
             background-color: #0d47a1; /* Fondo del menú de navegación */
-            padding: 10px;
+            padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
         }
@@ -37,6 +39,7 @@
         nav a {
             color: #ffffff; /* Color del enlace en el menú */
             text-decoration: none;
+            font-weight: bold; /* Texto en negrita */
         }
         nav a:hover {
             text-decoration: underline; /* Subrayado al pasar el ratón */
@@ -49,7 +52,7 @@
             background-color: #ffffff; /* Fondo blanco para las secciones */
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
             margin-bottom: 20px;
         }
         img {
@@ -57,7 +60,7 @@
             max-width: 500px;
             border: 2px solid #0d47a1; /* Borde azul para las imágenes */
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
             margin: 10px auto;
             display: block;
         }
@@ -67,13 +70,16 @@
             padding: 10px;
             overflow-x: auto; /* Permite desplazamiento horizontal */
             color: #0d47a1; /* Color del texto en el bloque de código */
+            border: 1px solid #0d47a1; /* Borde azul */
         }
         footer {
             text-align: center;
             margin-top: 20px;
             font-size: 0.9em;
-            border-top: 2px solid #0d47a1; /* Línea separadora */
+            border-top: 4px solid #0d47a1; /* Línea separadora más gruesa */
             padding-top: 10px;
+            background-color: #ffffff; /* Fondo blanco */
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
         }
         a {
             color: #1976d2; /* Color del enlace */
@@ -88,6 +94,7 @@
             border: 1px solid #0d47a1; /* Borde azul para el área de comentarios */
             border-radius: 5px;
             margin-top: 10px;
+            resize: none; /* Sin opción de redimensionar */
         }
         button {
             background-color: #0d47a1; /* Color de fondo del botón */
@@ -97,9 +104,16 @@
             border-radius: 5px; /* Bordes redondeados */
             cursor: pointer; /* Cursor de mano */
             margin-top: 10px;
+            transition: background-color 0.3s; /* Transición suave */
         }
         button:hover {
             background-color: #1976d2; /* Color más claro al pasar el ratón */
+        }
+        ul {
+            padding-left: 20px; /* Sangría para listas */
+        }
+        ul li {
+            margin-bottom: 5px; /* Espaciado entre elementos de lista */
         }
     </style>
 </head>
@@ -114,6 +128,7 @@
             <li><a href="#requisitos-previos">Requisitos previos</a></li>
             <li><a href="#pasos-instalacion">Pasos para la instalación</a></li>
             <li><a href="#verificar-instalacion">Verificar la instalación</a></li>
+            <li><a href="#recursos-adicionales">Recursos Adicionales</a></li>
             <li><a href="#comentarios">Comentarios</a></li>
         </ul>
     </nav>
@@ -150,6 +165,14 @@
         <pre><code>git --version</code></pre>
         <p>Esto te mostrará la versión de Git instalada en tu sistema.</p>
         <img src="img/version.png" alt="Verificación de la versión de Git" />
+    </section>
+
+    <section id="recursos-adicionales">
+        <h2>Recursos Adicionales</h2>
+        <ul>
+            <li><a href="https://git-scm.com/doc" target="_blank">Documentación Oficial de Git</a></li>
+            <li><a href="https://www.youtube.com/results?search_query=git+tutorial" target="_blank">Tutorial en Video sobre Git</a></li>
+        </ul>
     </section>
 
     <section id="comentarios">
